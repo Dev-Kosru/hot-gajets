@@ -1,0 +1,63 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar-brand img{
+    width:150px;
+}
+.buy-now ,.buy-now:hover {
+    border:none;
+    background-color:#000;
+    color:white;
+    padding:10px 20px;
+}
+.indicators{
+    color:red;
+}
+.seeall{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 0px;
+}
+.seeall a{
+    text-decoration: none;
+    color:orange;
+    font-weight:bold;
+}
+.margin{
+    margin: 100px auto;
+}
+small{
+    display:block;
+    font-size:26px;
+    margin:10px auto;
+}
+.card{
+    border:none;
+}
+
+
+.width img{
+    width:140px;
+    margin-left:60px;
+    margin-top:60px;
+}
+h3{
+    margin:20px auto;
+}
+.bag{
+    margin-top:100px;
+    margin-left:60px;
+}
+.cata::after{
+    content:"" ;
+    display: block;
+    width:8%;
+    height:8px;
+    background-color: #FF9C35;
+    margin:20px 46% 10px 46%;
+    border-radius: 10px;
+
+}
